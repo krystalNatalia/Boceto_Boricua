@@ -1,0 +1,912 @@
+2017-05-28 05:36:15 [::1][-][vl6jt31co61qq3kt971bs2ucq1][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request "art/acrylic".' in C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Module.php:532
+Stack trace:
+#0 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('art/acrylic', Array)
+#1 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#2 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-05-28 05:36:15 [::1][-][vl6jt31co61qq3kt971bs2ucq1][info][application] $_COOKIE = [
+    '_identity-backend' => '585f33cf68c66079e94e1cddbfc167e0f5df5e85c87168294298008747688f52a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Pp_csdgHIplh2uuWB462flNhyXsdFFXs\",2592000]\";}'
+    '_csrf' => 'da01d48cb1db40328bb973f9578863f2e98ef911414d821d275a725f2a6f3648a:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"E˙KÑe@3>ë#œÈ¢ÉZ<zV‘π7sŒ\\}zxü\";}'
+    'advanced-frontend' => 'vl6jt31co61qq3kt971bs2ucq1'
+    '_csrf-frontend' => '0395b9d010f34369897af92de3ad2252e566946297daf04e34951f1d646b4420a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"|≈ó◊PŸGÄvÀã3ô¿∆5‚Û2≠ƒÒá
+c∆∫—{\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/PhpSites/Boceto_Boricua_V3/frontend/web/index.php/site/about'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_identity-backend=585f33cf68c66079e94e1cddbfc167e0f5df5e85c87168294298008747688f52a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Pp_csdgHIplh2uuWB462flNhyXsdFFXs%22%2C2592000%5D%22%3B%7D; _csrf=da01d48cb1db40328bb973f9578863f2e98ef911414d821d275a725f2a6f3648a%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22E%FAK%84%04%1De%403%3E%91%23%CF%E9%A2%83Z%1D%3CzV%02%D4%B97s%CE%5C%7Dzx%9F%22%3B%7D; advanced-frontend=vl6jt31co61qq3kt971bs2ucq1; _csrf-frontend=0395b9d010f34369897af92de3ad2252e566946297daf04e34951f1d646b4420a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%7C%C5%97%D7P%16%D9G%80v%CB%8B3%99%C0%C65%E2%F32%0B%AD%C4%F1%87%10%0Ac%C6%BA%D1%7B%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\tenmi\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\tenmi\\AppData\\Roaming\\npm;C:\\Users\\tenmi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/PhpSites/Boceto_Boricua_V3/frontend/web/index.php'
+    'REMOTE_PORT' => '54164'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php/art/acrylic'
+    'SCRIPT_NAME' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php'
+    'PATH_INFO' => '/art/acrylic'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\art\\acrylic'
+    'PHP_SELF' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php/art/acrylic'
+    'REQUEST_TIME_FLOAT' => 1495942575.42
+    'REQUEST_TIME' => 1495942575
+]
+2017-05-29 02:52:46 [::1][-][n5ndrg1d9gump8k7rlkfqdn250][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\models\ActiveDataProvider' not found' in C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\frontend\models\SearchProduct.php:46
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-05-29 02:52:46 [::1][-][n5ndrg1d9gump8k7rlkfqdn250][info][application] $_COOKIE = [
+    'advanced-backend' => 'kraesp223mjqd588u1kstl8590'
+    '_csrf-backend' => 'ce75a2d9fa884fa1a6b3263ce3b4a08325db7ec4e17da815f378acbb0728c116a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"¥(ˇ w›™√&Ô¡ÁßØM“A_¨æ”ÜçÃ;x,≠q\";}'
+    '_identity-backend' => '585f33cf68c66079e94e1cddbfc167e0f5df5e85c87168294298008747688f52a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Pp_csdgHIplh2uuWB462flNhyXsdFFXs\",2592000]\";}'
+    'advanced-frontend' => 'n5ndrg1d9gump8k7rlkfqdn250'
+    '_csrf-frontend' => 'e0b64df99e5c64a2df3425a51cb96fc57ef2c2611c77f79e513c7d64ddd6e2e0a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"u¢÷B`◊t‡Sˇ8|Äé\'›ƒÏïÌG±hH”Úùú\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/PhpSites/Boceto_Boricua_V3/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=kraesp223mjqd588u1kstl8590; _csrf-backend=ce75a2d9fa884fa1a6b3263ce3b4a08325db7ec4e17da815f378acbb0728c116a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%B4%28%FF%CAw%04%DD%AA%C3%26%EF%19%C1%E7%A7%AFM%D2A_%AC%BE%13%D3%86%8D%CC%3Bx%2C%ADq%22%3B%7D; _identity-backend=585f33cf68c66079e94e1cddbfc167e0f5df5e85c87168294298008747688f52a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Pp_csdgHIplh2uuWB462flNhyXsdFFXs%22%2C2592000%5D%22%3B%7D; advanced-frontend=n5ndrg1d9gump8k7rlkfqdn250; _csrf-frontend=e0b64df99e5c64a2df3425a51cb96fc57ef2c2611c77f79e513c7d64ddd6e2e0a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22u%A2%D6B%60%D7t%E0%15S%FF8%7C%80%8E%27%DD%C4%EC%10%95%1E%EDG%11%B1hH%D3%F2%9D%9C%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\tenmi\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\tenmi\\AppData\\Roaming\\npm;C:\\Users\\tenmi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/PhpSites/Boceto_Boricua_V3/frontend/web/index.php'
+    'REMOTE_PORT' => '50536'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php/art/acrylic'
+    'SCRIPT_NAME' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php'
+    'PATH_INFO' => '/art/acrylic'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\art\\acrylic'
+    'PHP_SELF' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php/art/acrylic'
+    'REQUEST_TIME_FLOAT' => 1496019166.418
+    'REQUEST_TIME' => 1496019166
+]
+2017-05-29 02:59:31 [::1][-][n5ndrg1d9gump8k7rlkfqdn250][error][yii\base\ErrorException:4096] exception 'yii\base\ErrorException' with message 'Object of class frontend\models\SearchProduct could not be converted to string' in C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\frontend\views\art\acrylic.php:128
+Stack trace:
+#0 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\frontend\views\art\acrylic.php(128): yii\base\ErrorHandler->handleError(4096, 'Object of class...', 'C:\\xampp\\htdocs...', 128, Array)
+#1 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\ArtController))
+#4 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('acrylic', Array, Object(frontend\controllers\ArtController))
+#5 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\frontend\controllers\ArtController.php(56): yii\base\Controller->render('acrylic', Array)
+#6 [internal function]: frontend\controllers\ArtController->actionAcrylic()
+#7 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('acrylic', Array)
+#10 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('art/acrylic', Array)
+#11 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2017-05-29 02:59:31 [::1][-][n5ndrg1d9gump8k7rlkfqdn250][info][application] $_COOKIE = [
+    'advanced-backend' => 'kraesp223mjqd588u1kstl8590'
+    '_csrf-backend' => 'ce75a2d9fa884fa1a6b3263ce3b4a08325db7ec4e17da815f378acbb0728c116a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"¥(ˇ w›™√&Ô¡ÁßØM“A_¨æ”ÜçÃ;x,≠q\";}'
+    '_identity-backend' => '585f33cf68c66079e94e1cddbfc167e0f5df5e85c87168294298008747688f52a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Pp_csdgHIplh2uuWB462flNhyXsdFFXs\",2592000]\";}'
+    'advanced-frontend' => 'n5ndrg1d9gump8k7rlkfqdn250'
+    '_csrf-frontend' => 'e0b64df99e5c64a2df3425a51cb96fc57ef2c2611c77f79e513c7d64ddd6e2e0a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"u¢÷B`◊t‡Sˇ8|Äé\'›ƒÏïÌG±hH”Úùú\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/PhpSites/Boceto_Boricua_V3/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=kraesp223mjqd588u1kstl8590; _csrf-backend=ce75a2d9fa884fa1a6b3263ce3b4a08325db7ec4e17da815f378acbb0728c116a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%B4%28%FF%CAw%04%DD%AA%C3%26%EF%19%C1%E7%A7%AFM%D2A_%AC%BE%13%D3%86%8D%CC%3Bx%2C%ADq%22%3B%7D; _identity-backend=585f33cf68c66079e94e1cddbfc167e0f5df5e85c87168294298008747688f52a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Pp_csdgHIplh2uuWB462flNhyXsdFFXs%22%2C2592000%5D%22%3B%7D; advanced-frontend=n5ndrg1d9gump8k7rlkfqdn250; _csrf-frontend=e0b64df99e5c64a2df3425a51cb96fc57ef2c2611c77f79e513c7d64ddd6e2e0a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22u%A2%D6B%60%D7t%E0%15S%FF8%7C%80%8E%27%DD%C4%EC%10%95%1E%EDG%11%B1hH%D3%F2%9D%9C%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\tenmi\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\tenmi\\AppData\\Roaming\\npm;C:\\Users\\tenmi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/PhpSites/Boceto_Boricua_V3/frontend/web/index.php'
+    'REMOTE_PORT' => '51390'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php/art/acrylic'
+    'SCRIPT_NAME' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php'
+    'PATH_INFO' => '/art/acrylic'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\art\\acrylic'
+    'PHP_SELF' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php/art/acrylic'
+    'REQUEST_TIME_FLOAT' => 1496019570.858
+    'REQUEST_TIME' => 1496019570
+]
+2017-05-29 03:02:49 [::1][-][n5ndrg1d9gump8k7rlkfqdn250][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Getting unknown property: yii\data\ActiveDataProvider::Title' in C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Component.php:147
+Stack trace:
+#0 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\frontend\views\art\acrylic.php(128): yii\base\Component->__get('Title')
+#1 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\View.php(328): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\View.php(250): yii\base\View->renderPhpFile('C:\\xampp\\htdocs...', Array)
+#3 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\View.php(152): yii\base\View->renderFile('C:\\xampp\\htdocs...', Array, Object(frontend\controllers\ArtController))
+#4 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Controller.php(381): yii\base\View->render('acrylic', Array, Object(frontend\controllers\ArtController))
+#5 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\frontend\controllers\ArtController.php(56): yii\base\Controller->render('acrylic', Array)
+#6 [internal function]: frontend\controllers\ArtController->actionAcrylic()
+#7 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#9 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('acrylic', Array)
+#10 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('art/acrylic', Array)
+#11 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#12 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\frontend\web\index.php(17): yii\base\Application->run()
+#13 {main}
+2017-05-29 03:02:48 [::1][-][n5ndrg1d9gump8k7rlkfqdn250][info][application] $_COOKIE = [
+    'advanced-backend' => 'kraesp223mjqd588u1kstl8590'
+    '_csrf-backend' => 'ce75a2d9fa884fa1a6b3263ce3b4a08325db7ec4e17da815f378acbb0728c116a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"¥(ˇ w›™√&Ô¡ÁßØM“A_¨æ”ÜçÃ;x,≠q\";}'
+    '_identity-backend' => '585f33cf68c66079e94e1cddbfc167e0f5df5e85c87168294298008747688f52a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Pp_csdgHIplh2uuWB462flNhyXsdFFXs\",2592000]\";}'
+    'advanced-frontend' => 'n5ndrg1d9gump8k7rlkfqdn250'
+    '_csrf-frontend' => 'e0b64df99e5c64a2df3425a51cb96fc57ef2c2611c77f79e513c7d64ddd6e2e0a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"u¢÷B`◊t‡Sˇ8|Äé\'›ƒÏïÌG±hH”Úùú\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/PhpSites/Boceto_Boricua_V3/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=kraesp223mjqd588u1kstl8590; _csrf-backend=ce75a2d9fa884fa1a6b3263ce3b4a08325db7ec4e17da815f378acbb0728c116a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%B4%28%FF%CAw%04%DD%AA%C3%26%EF%19%C1%E7%A7%AFM%D2A_%AC%BE%13%D3%86%8D%CC%3Bx%2C%ADq%22%3B%7D; _identity-backend=585f33cf68c66079e94e1cddbfc167e0f5df5e85c87168294298008747688f52a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Pp_csdgHIplh2uuWB462flNhyXsdFFXs%22%2C2592000%5D%22%3B%7D; advanced-frontend=n5ndrg1d9gump8k7rlkfqdn250; _csrf-frontend=e0b64df99e5c64a2df3425a51cb96fc57ef2c2611c77f79e513c7d64ddd6e2e0a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22u%A2%D6B%60%D7t%E0%15S%FF8%7C%80%8E%27%DD%C4%EC%10%95%1E%EDG%11%B1hH%D3%F2%9D%9C%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\tenmi\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\tenmi\\AppData\\Roaming\\npm;C:\\Users\\tenmi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/PhpSites/Boceto_Boricua_V3/frontend/web/index.php'
+    'REMOTE_PORT' => '51812'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php/art/acrylic'
+    'SCRIPT_NAME' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php'
+    'PATH_INFO' => '/art/acrylic'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\art\\acrylic'
+    'PHP_SELF' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php/art/acrylic'
+    'REQUEST_TIME_FLOAT' => 1496019768.589
+    'REQUEST_TIME' => 1496019768
+]
+2017-05-29 04:09:55 [::1][-][n5ndrg1d9gump8k7rlkfqdn250][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Html' not found' in C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\frontend\views\art\acrylic.php:70
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-05-29 04:09:55 [::1][-][n5ndrg1d9gump8k7rlkfqdn250][info][application] $_COOKIE = [
+    'advanced-backend' => 'kraesp223mjqd588u1kstl8590'
+    '_csrf-backend' => 'ce75a2d9fa884fa1a6b3263ce3b4a08325db7ec4e17da815f378acbb0728c116a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"¥(ˇ w›™√&Ô¡ÁßØM“A_¨æ”ÜçÃ;x,≠q\";}'
+    '_identity-backend' => '585f33cf68c66079e94e1cddbfc167e0f5df5e85c87168294298008747688f52a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Pp_csdgHIplh2uuWB462flNhyXsdFFXs\",2592000]\";}'
+    'advanced-frontend' => 'n5ndrg1d9gump8k7rlkfqdn250'
+    '_csrf-frontend' => 'e0b64df99e5c64a2df3425a51cb96fc57ef2c2611c77f79e513c7d64ddd6e2e0a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"u¢÷B`◊t‡Sˇ8|Äé\'›ƒÏïÌG±hH”Úùú\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/PhpSites/Boceto_Boricua_V3/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=kraesp223mjqd588u1kstl8590; _csrf-backend=ce75a2d9fa884fa1a6b3263ce3b4a08325db7ec4e17da815f378acbb0728c116a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%B4%28%FF%CAw%04%DD%AA%C3%26%EF%19%C1%E7%A7%AFM%D2A_%AC%BE%13%D3%86%8D%CC%3Bx%2C%ADq%22%3B%7D; _identity-backend=585f33cf68c66079e94e1cddbfc167e0f5df5e85c87168294298008747688f52a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Pp_csdgHIplh2uuWB462flNhyXsdFFXs%22%2C2592000%5D%22%3B%7D; advanced-frontend=n5ndrg1d9gump8k7rlkfqdn250; _csrf-frontend=e0b64df99e5c64a2df3425a51cb96fc57ef2c2611c77f79e513c7d64ddd6e2e0a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22u%A2%D6B%60%D7t%E0%15S%FF8%7C%80%8E%27%DD%C4%EC%10%95%1E%EDG%11%B1hH%D3%F2%9D%9C%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\tenmi\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\tenmi\\AppData\\Roaming\\npm;C:\\Users\\tenmi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/PhpSites/Boceto_Boricua_V3/frontend/web/index.php'
+    'REMOTE_PORT' => '60179'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php/art/acrylic'
+    'SCRIPT_NAME' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php'
+    'PATH_INFO' => '/art/acrylic'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\art\\acrylic'
+    'PHP_SELF' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php/art/acrylic'
+    'REQUEST_TIME_FLOAT' => 1496023795.058
+    'REQUEST_TIME' => 1496023795
+]
+2017-05-29 07:07:32 [::1][-][n5ndrg1d9gump8k7rlkfqdn250][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'Html' not found' in C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\frontend\views\art\acrylic.php:79
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-05-29 07:07:32 [::1][-][n5ndrg1d9gump8k7rlkfqdn250][info][application] $_COOKIE = [
+    'advanced-backend' => 'kraesp223mjqd588u1kstl8590'
+    '_csrf-backend' => 'ce75a2d9fa884fa1a6b3263ce3b4a08325db7ec4e17da815f378acbb0728c116a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"¥(ˇ w›™√&Ô¡ÁßØM“A_¨æ”ÜçÃ;x,≠q\";}'
+    '_identity-backend' => '585f33cf68c66079e94e1cddbfc167e0f5df5e85c87168294298008747688f52a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[1,\"Pp_csdgHIplh2uuWB462flNhyXsdFFXs\",2592000]\";}'
+    'advanced-frontend' => 'n5ndrg1d9gump8k7rlkfqdn250'
+    '_csrf-frontend' => 'e0b64df99e5c64a2df3425a51cb96fc57ef2c2611c77f79e513c7d64ddd6e2e0a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"u¢÷B`◊t‡Sˇ8|Äé\'›ƒÏïÌG±hH”Úùú\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/PhpSites/Boceto_Boricua_V3/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => 'advanced-backend=kraesp223mjqd588u1kstl8590; _csrf-backend=ce75a2d9fa884fa1a6b3263ce3b4a08325db7ec4e17da815f378acbb0728c116a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%B4%28%FF%CAw%04%DD%AA%C3%26%EF%19%C1%E7%A7%AFM%D2A_%AC%BE%13%D3%86%8D%CC%3Bx%2C%ADq%22%3B%7D; _identity-backend=585f33cf68c66079e94e1cddbfc167e0f5df5e85c87168294298008747688f52a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B1%2C%22Pp_csdgHIplh2uuWB462flNhyXsdFFXs%22%2C2592000%5D%22%3B%7D; advanced-frontend=n5ndrg1d9gump8k7rlkfqdn250; _csrf-frontend=e0b64df99e5c64a2df3425a51cb96fc57ef2c2611c77f79e513c7d64ddd6e2e0a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22u%A2%D6B%60%D7t%E0%15S%FF8%7C%80%8E%27%DD%C4%EC%10%95%1E%EDG%11%B1hH%D3%F2%9D%9C%22%3B%7D'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\tenmi\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\tenmi\\AppData\\Roaming\\npm;C:\\Users\\tenmi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/PhpSites/Boceto_Boricua_V3/frontend/web/index.php'
+    'REMOTE_PORT' => '63785'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php/art/acrylic'
+    'SCRIPT_NAME' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php'
+    'PATH_INFO' => '/art/acrylic'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\art\\acrylic'
+    'PHP_SELF' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php/art/acrylic'
+    'REQUEST_TIME_FLOAT' => 1496034452.497
+    'REQUEST_TIME' => 1496034452
+]
+2017-05-29 22:13:08 [::1][5][04g7ad73bb7lrfr5vhvsd67nl6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/shopping-kart' in C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('shopping-kart', Array)
+#1 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/shopping-k...', Array)
+#2 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-05-29 22:13:07 [::1][5][04g7ad73bb7lrfr5vhvsd67nl6][info][application] $_COOKIE = [
+    '_csrf-frontend' => '77de4e3e26b26839eb875d7b5fb5cd6445f5b085461ed4e014081036fb825ff0a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ò5r~Óù ÿ‹qbo\\âSVÃ‰∏lk$äçÂÓÚ‚_\";}'
+    '_csrf-backend' => '077252cc9c8a140c88a8a9af4afe27f2c02f265fa602c7fa3479f678ea68c731a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"©+Îù2&òÙ1w
+ü∫ﬂà%˙¿Îc4U7◊Z;¸ò’Ë_√\";}'
+    'advanced-backend' => 'mrrlege5gog82t64i3nqneenc3'
+    'advanced-frontend' => '04g7ad73bb7lrfr5vhvsd67nl6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/PhpSites/Boceto_Boricua_V3/frontend/web/index.php/user/update?Username=CyberKing10'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=77de4e3e26b26839eb875d7b5fb5cd6445f5b085461ed4e014081036fb825ff0a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F15r%7E%EE%9D%CA%D8%DCqbo%5C%89SV%CC%E4%07%1B%B8lk%24%8A%8D%06%E5%EE%F2%E2_%22%3B%7D; _csrf-backend=077252cc9c8a140c88a8a9af4afe27f2c02f265fa602c7fa3479f678ea68c731a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%A9%2B%EB%9D2%26%98%F41w%0A%9F%BA%DF%88%25%FA%C0%EBc4U7%D7Z%3B%FC%98%D5%E8_%C3%22%3B%7D; advanced-backend=mrrlege5gog82t64i3nqneenc3; advanced-frontend=04g7ad73bb7lrfr5vhvsd67nl6'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\tenmi\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\tenmi\\AppData\\Roaming\\npm;C:\\Users\\tenmi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/PhpSites/Boceto_Boricua_V3/frontend/web/index.php'
+    'REMOTE_PORT' => '63053'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php/site/shopping-kart'
+    'SCRIPT_NAME' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php'
+    'PATH_INFO' => '/site/shopping-kart'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\site\\shopping-kart'
+    'PHP_SELF' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php/site/shopping-kart'
+    'REQUEST_TIME_FLOAT' => 1496088787.846
+    'REQUEST_TIME' => 1496088787
+]
+2017-05-29 22:13:17 [::1][5][04g7ad73bb7lrfr5vhvsd67nl6][error][yii\web\HttpException:404] exception 'yii\base\InvalidRouteException' with message 'Unable to resolve the request: site/shopping-kart' in C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Controller.php:127
+Stack trace:
+#0 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('shopping-kart', Array)
+#1 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/shopping-k...', Array)
+#2 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#3 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\frontend\web\index.php(17): yii\base\Application->run()
+#4 {main}
+
+Next exception 'yii\web\NotFoundHttpException' with message 'Page not found.' in C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\web\Application.php:114
+Stack trace:
+#0 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#1 C:\xampp\htdocs\PhpSites\Boceto_Boricua_V3\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2017-05-29 22:13:17 [::1][5][04g7ad73bb7lrfr5vhvsd67nl6][info][application] $_COOKIE = [
+    '_csrf-frontend' => '77de4e3e26b26839eb875d7b5fb5cd6445f5b085461ed4e014081036fb825ff0a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"Ò5r~Óù ÿ‹qbo\\âSVÃ‰∏lk$äçÂÓÚ‚_\";}'
+    '_csrf-backend' => '077252cc9c8a140c88a8a9af4afe27f2c02f265fa602c7fa3479f678ea68c731a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"©+Îù2&òÙ1w
+ü∫ﬂà%˙¿Îc4U7◊Z;¸ò’Ë_√\";}'
+    'advanced-backend' => 'mrrlege5gog82t64i3nqneenc3'
+    'advanced-frontend' => '04g7ad73bb7lrfr5vhvsd67nl6'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 5
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost/PhpSites/Boceto_Boricua_V3/frontend/web/index.php/art/acrylic'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=77de4e3e26b26839eb875d7b5fb5cd6445f5b085461ed4e014081036fb825ff0a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%F15r%7E%EE%9D%CA%D8%DCqbo%5C%89SV%CC%E4%07%1B%B8lk%24%8A%8D%06%E5%EE%F2%E2_%22%3B%7D; _csrf-backend=077252cc9c8a140c88a8a9af4afe27f2c02f265fa602c7fa3479f678ea68c731a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22%A9%2B%EB%9D2%26%98%F41w%0A%9F%BA%DF%88%25%FA%C0%EBc4U7%D7Z%3B%FC%98%D5%E8_%C3%22%3B%7D; advanced-backend=mrrlege5gog82t64i3nqneenc3; advanced-frontend=04g7ad73bb7lrfr5vhvsd67nl6'
+    'PATH' => 'C:\\ProgramData\\Oracle\\Java\\javapath;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\nodejs\\;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Users\\tenmi\\AppData\\Local\\Microsoft\\WindowsApps;;C:\\Program Files (x86)\\Microsoft VS Code\\bin;C:\\Users\\tenmi\\AppData\\Roaming\\npm;C:\\Users\\tenmi\\AppData\\Roaming\\Composer\\vendor\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30 Server at localhost Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/PhpSites/Boceto_Boricua_V3/frontend/web/index.php'
+    'REMOTE_PORT' => '63075'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php/site/shopping-kart'
+    'SCRIPT_NAME' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php'
+    'PATH_INFO' => '/site/shopping-kart'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\site\\shopping-kart'
+    'PHP_SELF' => '/PhpSites/Boceto_Boricua_V3/frontend/web/index.php/site/shopping-kart'
+    'REQUEST_TIME_FLOAT' => 1496088797.12
+    'REQUEST_TIME' => 1496088797
+]
+2017-06-06 17:22:55 [::1][7][ji0mjer4g8vpf6905goacm3v74][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to perform this action.' in C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\filters\AccessControl.php:154
+Stack trace:
+#0 C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\filters\AccessControl.php(137): yii\filters\AccessControl->denyAccess(Object(yii\web\User))
+#1 C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\ActionFilter.php(75): yii\filters\AccessControl->beforeAction(Object(yii\base\InlineAction))
+#2 [internal function]: yii\base\ActionFilter->beforeFilter(Object(yii\base\ActionEvent))
+#3 C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Component.php(545): call_user_func(Array, Object(yii\base\ActionEvent))
+#4 C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Controller.php(272): yii\base\Component->trigger('beforeAction', Object(yii\base\ActionEvent))
+#5 C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\web\Controller.php(164): yii\base\Controller->beforeAction(Object(yii\base\InlineAction))
+#6 C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Controller.php(154): yii\web\Controller->beforeAction(Object(yii\base\InlineAction))
+#7 C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('signup', Array)
+#8 C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('site/signup', Array)
+#9 C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#10 C:\xampp\htdocs\Boceto_Boricua_V3\frontend\web\index.php(17): yii\base\Application->run()
+#11 {main}
+2017-06-06 17:22:55 [::1][7][ji0mjer4g8vpf6905goacm3v74][info][application] $_COOKIE = [
+    '_csrf-frontend' => '9dae50102ad88d35bbada9f5291d3d0dc2d64470c028abf67cae14b2348e1e20a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"‰º3eµÆ
+tZ´enΩó∏˙µé|Ü$Ä‚˛Ä=fÀÏ\";}'
+    'advanced-frontend' => 'ji0mjer4g8vpf6905goacm3v74'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 7
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/Boceto_Boricua_V3/frontend/web/'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=9dae50102ad88d35bbada9f5291d3d0dc2d64470c028abf67cae14b2348e1e20a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%E4%BC3e%B5%F0%AE%0AtZ%ABen%BD%97%B8%FA%B5%8E%7C%86%24%07%7F%80%E2%FE%80%3Df%CB%EC%22%3B%7D; advanced-frontend=ji0mjer4g8vpf6905goacm3v74'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Users\\Owner\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Boceto_Boricua_V3/frontend/web/index.php'
+    'REMOTE_PORT' => '54584'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Boceto_Boricua_V3/frontend/web/index.php/site/signup'
+    'SCRIPT_NAME' => '/Boceto_Boricua_V3/frontend/web/index.php'
+    'PATH_INFO' => '/site/signup'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\site\\signup'
+    'PHP_SELF' => '/Boceto_Boricua_V3/frontend/web/index.php/site/signup'
+    'REQUEST_TIME_FLOAT' => 1496762575.179
+    'REQUEST_TIME' => 1496762575
+]
+2017-06-06 17:30:45 [::1][8][qek2m4flff4nv18er1t7pjtsl1][error][yii\base\UnknownPropertyException] exception 'yii\base\UnknownPropertyException' with message 'Setting unknown property: frontend\models\User\Usershippingaddress::StateName' in C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Component.php:201
+Stack trace:
+#0 C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\db\BaseActiveRecord.php(305): yii\base\Component->__set('StateName', 'Arecibo')
+#1 C:\xampp\htdocs\Boceto_Boricua_V3\frontend\models\User\UserShippingAddressForm.php(41): yii\db\BaseActiveRecord->__set('StateName', 'Arecibo')
+#2 C:\xampp\htdocs\Boceto_Boricua_V3\frontend\controllers\UserController.php(159): frontend\models\User\UserShippingAddressForm->SaveShippingAddress()
+#3 [internal function]: frontend\controllers\UserController->actionUserShippingAddressInput()
+#4 C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#6 C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('user-shipping-a...', Array)
+#7 C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/user-shipp...', Array)
+#8 C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#9 C:\xampp\htdocs\Boceto_Boricua_V3\frontend\web\index.php(17): yii\base\Application->run()
+#10 {main}
+2017-06-06 17:30:45 [::1][8][qek2m4flff4nv18er1t7pjtsl1][info][application] $_POST = [
+    '_csrf-frontend' => 'kyiOKYSLywJkfWTzHRxEVWOp7k3ntK9jwpaB-wZvP7B3lL1MMXtlCBAnz5ZzodPtmRxgMWGQqBxCdH97Own0XA=='
+    'UserShippingAddressForm' => [
+        'Username' => 'Amy'
+        'StreetName' => 'Calle Torotola'
+        'CityName' => 'Sabana Hoyos'
+        'StateName' => 'Arecibo'
+        'Zipcode' => '00587'
+    ]
+]
+
+$_COOKIE = [
+    '_csrf-frontend' => '9dae50102ad88d35bbada9f5291d3d0dc2d64470c028abf67cae14b2348e1e20a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"‰º3eµÆ
+tZ´enΩó∏˙µé|Ü$Ä‚˛Ä=fÀÏ\";}'
+    'advanced-frontend' => 'qek2m4flff4nv18er1t7pjtsl1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 8
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'CONTENT_LENGTH' => '876'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ORIGIN' => 'http://localhost:8080'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=----WebKitFormBoundary4OoQgels76yY7rbD'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/Boceto_Boricua_V3/frontend/web/index.php/user/user-shipping-address-input'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=9dae50102ad88d35bbada9f5291d3d0dc2d64470c028abf67cae14b2348e1e20a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%E4%BC3e%B5%F0%AE%0AtZ%ABen%BD%97%B8%FA%B5%8E%7C%86%24%07%7F%80%E2%FE%80%3Df%CB%EC%22%3B%7D; advanced-frontend=qek2m4flff4nv18er1t7pjtsl1'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Users\\Owner\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Boceto_Boricua_V3/frontend/web/index.php'
+    'REMOTE_PORT' => '54647'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Boceto_Boricua_V3/frontend/web/index.php/user/user-shipping-address-input'
+    'SCRIPT_NAME' => '/Boceto_Boricua_V3/frontend/web/index.php'
+    'PATH_INFO' => '/user/user-shipping-address-input'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\user\\user-shipping-address-input'
+    'PHP_SELF' => '/Boceto_Boricua_V3/frontend/web/index.php/user/user-shipping-address-input'
+    'REQUEST_TIME_FLOAT' => 1496763045.669
+    'REQUEST_TIME' => 1496763045
+]
+2017-06-06 17:46:48 [::1][8][qek2m4flff4nv18er1t7pjtsl1][error][yii\web\HttpException:400] exception 'yii\web\BadRequestHttpException' with message 'Missing required parameters: Username' in C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\web\Controller.php:149
+Stack trace:
+#0 C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams(Object(yii\base\InlineAction), Array)
+#1 C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Controller.php(156): yii\base\InlineAction->runWithParams(Array)
+#2 C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Module.php(523): yii\base\Controller->runAction('update-billing-...', Array)
+#3 C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\web\Application.php(102): yii\base\Module->runAction('user/update-bil...', Array)
+#4 C:\xampp\htdocs\Boceto_Boricua_V3\vendor\yiisoft\yii2\base\Application.php(380): yii\web\Application->handleRequest(Object(yii\web\Request))
+#5 C:\xampp\htdocs\Boceto_Boricua_V3\frontend\web\index.php(17): yii\base\Application->run()
+#6 {main}
+2017-06-06 17:46:48 [::1][8][qek2m4flff4nv18er1t7pjtsl1][info][application] $_COOKIE = [
+    '_csrf-frontend' => '9dae50102ad88d35bbada9f5291d3d0dc2d64470c028abf67cae14b2348e1e20a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"‰º3eµÆ
+tZ´enΩó∏˙µé|Ü$Ä‚˛Ä=fÀÏ\";}'
+    'advanced-frontend' => 'qek2m4flff4nv18er1t7pjtsl1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 8
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/Boceto_Boricua_V3/frontend/web/index.php/user/update-billing-address?Username=Amy'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=9dae50102ad88d35bbada9f5291d3d0dc2d64470c028abf67cae14b2348e1e20a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%E4%BC3e%B5%F0%AE%0AtZ%ABen%BD%97%B8%FA%B5%8E%7C%86%24%07%7F%80%E2%FE%80%3Df%CB%EC%22%3B%7D; advanced-frontend=qek2m4flff4nv18er1t7pjtsl1'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Users\\Owner\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Boceto_Boricua_V3/frontend/web/index.php'
+    'REMOTE_PORT' => '55026'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Boceto_Boricua_V3/frontend/web/index.php/user/update-billing-address?'
+    'SCRIPT_NAME' => '/Boceto_Boricua_V3/frontend/web/index.php'
+    'PATH_INFO' => '/user/update-billing-address'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\user\\update-billing-address'
+    'PHP_SELF' => '/Boceto_Boricua_V3/frontend/web/index.php/user/update-billing-address'
+    'REQUEST_TIME_FLOAT' => 1496764008.522
+    'REQUEST_TIME' => 1496764008
+]
+2017-06-06 18:00:20 [::1][8][qek2m4flff4nv18er1t7pjtsl1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\models\Product' not found' in C:\xampp\htdocs\Boceto_Boricua_V3\frontend\models\SearchProduct.php:14
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-06-06 18:00:20 [::1][8][qek2m4flff4nv18er1t7pjtsl1][info][application] $_COOKIE = [
+    '_csrf-frontend' => '9dae50102ad88d35bbada9f5291d3d0dc2d64470c028abf67cae14b2348e1e20a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"‰º3eµÆ
+tZ´enΩó∏˙µé|Ü$Ä‚˛Ä=fÀÏ\";}'
+    'advanced-frontend' => 'qek2m4flff4nv18er1t7pjtsl1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 8
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/Boceto_Boricua_V3/frontend/web/index.php/art/oil'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=9dae50102ad88d35bbada9f5291d3d0dc2d64470c028abf67cae14b2348e1e20a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%E4%BC3e%B5%F0%AE%0AtZ%ABen%BD%97%B8%FA%B5%8E%7C%86%24%07%7F%80%E2%FE%80%3Df%CB%EC%22%3B%7D; advanced-frontend=qek2m4flff4nv18er1t7pjtsl1'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Users\\Owner\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Boceto_Boricua_V3/frontend/web/index.php'
+    'REMOTE_PORT' => '55281'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Boceto_Boricua_V3/frontend/web/index.php/art/oil?'
+    'SCRIPT_NAME' => '/Boceto_Boricua_V3/frontend/web/index.php'
+    'PATH_INFO' => '/art/oil'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\art\\oil'
+    'PHP_SELF' => '/Boceto_Boricua_V3/frontend/web/index.php/art/oil'
+    'REQUEST_TIME_FLOAT' => 1496764820.127
+    'REQUEST_TIME' => 1496764820
+]
+2017-06-06 18:01:37 [::1][8][qek2m4flff4nv18er1t7pjtsl1][error][yii\base\ErrorException:1] exception 'yii\base\ErrorException' with message 'Class 'frontend\models\SearchProduct' not found' in C:\xampp\htdocs\Boceto_Boricua_V3\frontend\controllers\ArtController.php:66
+Stack trace:
+#0 [internal function]: yii\base\ErrorHandler->handleFatalError()
+#1 {main}
+2017-06-06 18:01:37 [::1][8][qek2m4flff4nv18er1t7pjtsl1][info][application] $_COOKIE = [
+    '_csrf-frontend' => '9dae50102ad88d35bbada9f5291d3d0dc2d64470c028abf67cae14b2348e1e20a:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"‰º3eµÆ
+tZ´enΩó∏˙µé|Ü$Ä‚˛Ä=fÀÏ\";}'
+    'advanced-frontend' => 'qek2m4flff4nv18er1t7pjtsl1'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 8
+]
+
+$_SERVER = [
+    'MIBDIRS' => 'C:/xampp/php/extras/mibs'
+    'MYSQL_HOME' => '\\xampp\\mysql\\bin'
+    'OPENSSL_CONF' => 'C:/xampp/apache/bin/openssl.cnf'
+    'PHP_PEAR_SYSCONF_DIR' => '\\xampp\\php'
+    'PHPRC' => '\\xampp\\php'
+    'TMP' => '\\xampp\\tmp'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://localhost:8080/Boceto_Boricua_V3/frontend/web/index.php/art/oil'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'es-ES,es;q=0.8'
+    'HTTP_COOKIE' => '_csrf-frontend=9dae50102ad88d35bbada9f5291d3d0dc2d64470c028abf67cae14b2348e1e20a%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22%E4%BC3e%B5%F0%AE%0AtZ%ABen%BD%97%B8%FA%B5%8E%7C%86%24%07%7F%80%E2%FE%80%3Df%CB%EC%22%3B%7D; advanced-frontend=qek2m4flff4nv18er1t7pjtsl1'
+    'PATH' => 'C:\\Program Files (x86)\\Lenovo\\FusionEngine;C:\\Program Files (x86)\\Intel\\iCLS Client\\;C:\\Program Files\\Intel\\iCLS Client\\;C:\\windows\\system32;C:\\windows;C:\\windows\\System32\\Wbem;C:\\windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\DAL;C:\\Program Files (x86)\\Intel\\Intel(R) Management Engine Components\\IPT;C:\\Program Files (x86)\\Common Files\\lenovo\\easyplussdk\\bin;C:\\xampp\\php;C:\\ProgramData\\ComposerSetup\\bin;C:\\Program Files (x86)\\GtkSharp\\2.12\\bin;C:\\Users\\Owner\\AppData\\Roaming\\Composer\\vendor\\bin;C:\\Program Files (x86)\\Microsoft VS Code\\bin'
+    'SystemRoot' => 'C:\\windows'
+    'COMSPEC' => 'C:\\windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\windows'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30 Server at localhost Port 8080</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/5.6.30'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_ADDR' => '::1'
+    'SERVER_PORT' => '8080'
+    'REMOTE_ADDR' => '::1'
+    'DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'C:/xampp/htdocs'
+    'SERVER_ADMIN' => 'postmaster@localhost'
+    'SCRIPT_FILENAME' => 'C:/xampp/htdocs/Boceto_Boricua_V3/frontend/web/index.php'
+    'REMOTE_PORT' => '55289'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/Boceto_Boricua_V3/frontend/web/index.php/art/oil?'
+    'SCRIPT_NAME' => '/Boceto_Boricua_V3/frontend/web/index.php'
+    'PATH_INFO' => '/art/oil'
+    'PATH_TRANSLATED' => 'C:\\xampp\\htdocs\\art\\oil'
+    'PHP_SELF' => '/Boceto_Boricua_V3/frontend/web/index.php/art/oil'
+    'REQUEST_TIME_FLOAT' => 1496764897.134
+    'REQUEST_TIME' => 1496764897
+]
