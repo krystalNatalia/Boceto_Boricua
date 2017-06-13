@@ -1,12 +1,13 @@
 /* Add a gray background color and some padding to the footer */
 body{
-  background-color: #b7d1c4;
+  background-color: white;
 	padding-bottom:15px;
-	background-image:url('https://s-media-cache-ak0.pinimg.com/736x/9f/19/fe/9f19fec51bfb54dc52ec188298e7ad17.jpg');
-	background-position: top;
+	background-image: none;
+  background-position: top;
 	background-size: 100%;
     background-repeat: no-repeat;
     }
+
 footer {
   color:white;
   background-color: black;
@@ -15,7 +16,7 @@ footer {
 
 .background_color {
   border-radius: 25px;
-  background-color: #0D51DA;
+  background-color: #F8EFFB;
   padding: 10px 10px 10px 10px;
   text-align: left;
   color: white;
